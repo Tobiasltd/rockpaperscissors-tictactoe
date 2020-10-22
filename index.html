@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/ace7c5cb4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Rock Paper Scissors</h1>
+            <button id="restart" class="restart-btn">Restart Game</button>
+            <div id="score" class="score">
+                <p>Player: 0</p>
+                <p>Computer: 0</p>
+            </div>
+        </header>
+        <h2>Make Your Selection</h2>
+        <div class="choices">
+            <i id="rock" class="choice fas fa-hand-rock fa-10x"></i>
+            <i id="paper" class="choice fas fa-hand-paper fa-10x"></i>
+            <i id="scissors" class="choice fas fa-hand-scissors fa-10x"></i>
+        </div>
+    </div>
+
+    <!-- Modal-->
+    <div class="modal">
+        <div id="result" class="modal-content"></div>
+    </div>
+    <br>
+    <br>
+    <div class="ttt-container">
+        <header class="game--title">
+            <h1>Tic Tac Toe</h1>
+            <button id="game--restart">Restart Game</button>
+            <button id="score--restart">Restart Score</button>
+           <h2 class="game--status"></h2>
+            <div id="ttt-score" class="ttt-score">
+                <p>Player X: 0</p>
+                <p>Player O: 0</p>
+            </div>
+        </header>
+        <div class="game--container">
+            <div class="cell" data-cell-index="0"></div>
+            <div class="cell" data-cell-index="1"></div>
+            <div class="cell" data-cell-index="2"></div>
+            <div class="cell" data-cell-index="3"></div>
+            <div class="cell" data-cell-index="4"></div>
+            <div class="cell" data-cell-index="5"></div>
+            <div class="cell" data-cell-index="6"></div>
+            <div class="cell" data-cell-index="7"></div>
+            <div class="cell" data-cell-index="8"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
